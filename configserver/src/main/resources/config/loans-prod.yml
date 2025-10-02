@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EazyBank loans related prod APIs "
+  contactDetails:
+    name: "Dexter Morgan - Product Owner"
+    email: "dexter@eazybank.com"
+  onCallSupport:
+    - (457) 965-7638
+    - (457) 453-9462

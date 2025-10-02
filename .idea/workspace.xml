@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="402e19f1-644c-4c69-892e-8795cc6d28b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/alloy/alloy-local-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/alloy/alloy-local-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/loki/loki-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/loki/loki-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.heal/mrf/list.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/config/config.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/config/iam/format.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/format.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/pool.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/tmp/63a6a599-b28f-4ae3-8517-639a7e3ceffc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/index/index_20361/1759259710-51080c360229-1759255626496649341.tsdb.gz/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/index/index_20361/1759261586-ca1fc82982a2-1759260397858983280.tsdb.gz/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/loki_cluster_seed.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/26378591ef398564/1999bce85b91999bceacddb59c9ac8/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/26378591ef398564/1999c17543e1999c177b53723745ab/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/324a466ca8bdf07e/1999bce87661999bcf35db613fb4f7/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/324a466ca8bdf07e/1999c1753691999c17fff5f097b842/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/b327adbb7b088041/1999bce82d81999bce83aab05d8f3b/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/b327adbb7b088041/1999c1752861999c17528731c3da9e/xl.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlirezaMohamadian1998&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlirezaMohamadian1998/Microservices.git&quot;,
+    &quot;accountId&quot;: &quot;1b806442-77f4-4f39-9262-42eb54fe4382&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33Pv7YvYF6sTXi3qpmJ1rXxQZnS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alire/JetBrainWorkplace/udemyTutorial/Microservices/section 11/docker-compose/observability/loki&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alire\JetBrainWorkplace\udemyTutorial\Microservices\section 11\docker-compose\observability\loki" />
+      <recent name="C:\Users\alire\JetBrainWorkplace\udemyTutorial\Microservices\section 11\docker-compose\observability\alloy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alire\JetBrainWorkplace\udemyTutorial\Microservices\section 11\docker-compose\observability\alloy" />
+      <recent name="C:\Users\alire\JetBrainWorkplace\udemyTutorial\Microservices\section 11\docker-compose\observability\loki" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gatewayserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.gatewayserver.GatewayserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="402e19f1-644c-4c69-892e-8795cc6d28b8" name="Changes" comment="" />
+      <created>1753443016263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753443016263</updated>
+      <workItem from="1759231356241" duration="7330000" />
+      <workItem from="1759422849979" duration="528000" />
+      <workItem from="1759424756539" duration="2803000" />
+      <workItem from="1759428032722" duration="410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

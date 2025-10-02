@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "Sasha jones - QA Lead"
+    email: "sasha@eazybank.com"
+  onCallSupport:
+    - (777) 365-6789
+    - (777) 208-9876

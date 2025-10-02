@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: loans
+
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to EazyBank loans related local APIs "
+  contactDetails:
+    name: "Harry Potter - Developer"
+    email: "harry@eazybank.com"
+  onCallSupport:
+    - (918) 753-1234
+    - (918) 357-1345

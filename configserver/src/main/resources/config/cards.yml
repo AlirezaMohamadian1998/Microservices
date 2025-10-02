@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cards
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
+  contactDetails:
+    name: "James Gun - Developer"
+    email: "james@eazybank.com"
+  onCallSupport:
+    - (999) 999-4321
+    - (999) 987-5431
