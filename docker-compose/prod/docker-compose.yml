@@ -91,6 +91,19 @@ services:
       file: common-config.yml
       service: network-deploy-service
 
+  tempo:
+    image: grafana/tempo:latest
+    container_name: tempo
+    command: -config.file /etc/tempo-config.yml
+    ports:
+      - "3110:3100"
+      - "4318:4318"
+    volumes:
+      - ../observability/tempo/tempo.yml:/etc/tempo-config.yml
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
+
   grafana:
     image: grafana/grafana:latest
     environment:
@@ -215,14 +228,14 @@ services:
     extends:
       file: common-config.yml
       service: microservice-base-config
+    environment:
+      OTEL_SERVICE_NAME: configserver
 
   eurekaserver:
     image: alireza8488/eurekaserver:s11
     container_name: eurekaserver-ms
     ports:
       - 8070:8070
-    environment:
-      SPRING_APPLICATION_NAME: eurekaserver
     healthcheck:
       test: "curl --fail --silent http://localhost:8070/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -232,14 +245,15 @@ services:
     extends:
       file: common-config.yml
       service: microservice-configserver-config
+    environment:
+      SPRING_APPLICATION_NAME: eurekaserver
+      OTEL_SERVICE_NAME: eurekaserver
 
   accounts:
     image: alireza8488/accounts:s11
     container_name: accounts-ms
     ports:
       - "8080:8080"
-    environment:
-      SPRING_APPLICATION_NAME: accounts
     healthcheck:
       test: "curl --fail --silent http://localhost:8080/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -249,14 +263,15 @@ services:
     extends:
       file: common-config.yml
       service: microservice-eureka-config
+    environment:
+      SPRING_APPLICATION_NAME: accounts
+      OTEL_SERVICE_NAME: accounts
 
   loans:
     image: alireza8488/loans:s11
     container_name: loans-ms
     ports:
       - "8090:8090"
-    environment:
-      SPRING_APPLICATION_NAME: loans
     healthcheck:
       test: "curl --fail --silent http://localhost:8090/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -266,14 +281,15 @@ services:
     extends:
       file: common-config.yml
       service: microservice-eureka-config
+    environment:
+      SPRING_APPLICATION_NAME: loans
+      OTEL_SERVICE_NAME: loans
 
   cards:
     image: alireza8488/cards:s11
     container_name: cards-ms
     ports:
       - "9000:9000"
-    environment:
-      SPRING_APPLICATION_NAME: cards
     healthcheck:
       test: "curl --fail --silent http://localhost:9000/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -283,14 +299,15 @@ services:
     extends:
       file: common-config.yml
       service: microservice-eureka-config
+    environment:
+      SPRING_APPLICATION_NAME: cards
+      OTEL_SERVICE_NAME: cards
 
   gatewayserver:
     image: alireza8488/gatewayserver:s11
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
-    environment:
-      SPRING_APPLICATION_NAME: gatewayserver
     depends_on:
       accounts:
         condition: service_healthy
@@ -298,10 +315,12 @@ services:
         condition: service_healthy
       loans:
         condition: service_healthy
-
     extends:
       file: common-config.yml
       service: microservice-eureka-config
+    environment:
+      SPRING_APPLICATION_NAME: gatewayserver
+      OTEL_SERVICE_NAME: gatewayserver
 
 networks:
   eazybank:

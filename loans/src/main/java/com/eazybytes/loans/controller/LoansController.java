@@ -64,8 +64,10 @@ public class LoansController {
     public ResponseEntity<LoansDto> fetchLoanDetails(@RequestHeader("eazybank-correlation-id") String correlationId,
                                                      @RequestParam
                                                      @Pattern(regexp = "(^[0-9]{10}$)", message = "Mobile number must be 10 digits") String mobileNumber){
-        log.debug("eazyBank-correlation-id found: {} ", correlationId);
-        return ResponseEntity.status(HttpStatus.OK).body(iLoansService.fetchLoan(mobileNumber));
+        log.debug("fetchLoansDetails method start");
+        LoansDto loansDto = iLoansService.fetchLoan(mobileNumber);
+        log.debug("fetchLoansDetails method end");
+        return ResponseEntity.status(HttpStatus.OK).body(loansDto);
     }
 
     @Operation(summary = "Update Loan REST API", description = "REST API to update loan details based on a loan number")
