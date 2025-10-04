@@ -6,18 +6,44 @@
   <component name="ChangeListManager">
     <list default="true" id="402e19f1-644c-4c69-892e-8795cc6d28b8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.heal/mrf/list.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/tmp/7b87c86d-1350-471c-ba02-ab81de162769" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/config/config.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/config/iam/format.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/format.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/pool.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/.minio.sys/tmp/4fd5c775-328f-4e42-bc43-01e950c5bdad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/index/index_20364/tenant1/1759496872399414450-compactor-1759488173200-1759496192893-4b9ee1c3.tsdb.gz/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/index/index_20365/tenant1/1759593899881837242-compactor-1759593293875-1759593389148-da323953.tsdb.gz/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/loki_cluster_seed.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/26378591ef398564/199a9aae8ad199a9aae8b1f614abee/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/2c0a1e083ff432df/199a9ab49dd199aa25437dac746d7/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/324a466ca8bdf07e/199a9aae866199a9ab9580786eb99c/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/485009ba0b41be12/199a9aae490199a9aae4a5766ec77d/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/53efb04277704628/199a9aae68b199aa1fd90964dbced8/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/61979e12c18fb8e4/199a9aae6b6199aa1fd74548fe2593/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/61add763259723de/199a9ab4ca0199aa2249dc2e49b028/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/650178aebb36ab2a/199a9ab19a5199aa220c566632e4a1/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/7b325c469a38993b/199a9aae66b199aa1fcd97b4ceacdc/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/a446e90d5113877c/199a9aae9e6199aa1fd9bdc989d4a/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/a446e90d5113877c/199afeee833199aff05c5c306d5939/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/a98968fcaa7a45ff/199a9ab95e4199aa228924d6d286c7/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/ab1a52dab88fb368/199a9ab4f54199aa224c795b24d8f/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/b327adbb7b088041/199a9aae691199a9aae6926596626d/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/.data/minio/loki-data/tenant1/f63fb9a38f994298/199a9aae89f199aa1fd7fdd9652079/xl.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +239,7 @@
       <workItem from="1759428032722" duration="8254000" />
       <workItem from="1759480553610" duration="5182000" />
       <workItem from="1759509022265" duration="1381000" />
-      <workItem from="1759590702911" duration="3983000" />
+      <workItem from="1759590702911" duration="10465000" />
     </task>
     <servers />
   </component>
@@ -231,7 +257,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
